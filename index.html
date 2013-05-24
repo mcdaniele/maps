@@ -16,11 +16,18 @@
         // Empty
     }
 
+    function alertDismissed() {
+      // do something
+    }
+    
     // Show a custom alert
     //
     function showAlert() {
         navigator.notification.alert(
             'Hello World!',  // message
+            AlertDismissed;  // callback
+            ''  // title
+            'Done'  // buttonName
         );
     }
 
